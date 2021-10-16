@@ -1,0 +1,2 @@
+When this program is run, the sorted names will be output to a text file called "I'mSorted" in the folder resources.
+The program must be run in the same folder as resources for it to work. This is due to the filepath in the program.
