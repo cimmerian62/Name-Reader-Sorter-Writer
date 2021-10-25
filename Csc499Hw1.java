@@ -16,7 +16,7 @@ class readerSorterWriter {
     }
     
     public ArrayList readLines() {
-        File fileIn = new File("resources/Sort Me.txt");   //finds the file to sort from
+        File fileIn = new File("Sort Me.txt");   //finds the file to sort from
         
        
         ArrayList<String> linesIn = new ArrayList<String>();
@@ -91,7 +91,7 @@ class readerSorterWriter {
     }
     
     public void writeLines(String toWrite) {
-        File fileOut = new File("resources/I'mSorted.txt"); //file path of the file the names will be written to is specified
+        File fileOut = new File("ImSorted.txt"); //file path of the file the names will be written to is specified
         
         try{ 
             FileWriter fstream = new FileWriter (fileOut);
@@ -125,4 +125,3 @@ class Csc499Hw1 {
     }
 }
     
-
