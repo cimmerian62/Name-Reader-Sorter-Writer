@@ -2,7 +2,7 @@ When this program is run, there must be two text files "Sort Me" and "ImSorted" 
 program is coded to read names from a file called "Sort Me" and output the sorted names to a file called "ImSorted". The relative filepath 
 implemented in the code assumes that the two text files are in the same folder as the program.
 
-The names read in may be sorted primarily by length, and and secondarily alphabetically or the reverse of this depending on which
+The names read in may be sorted primarily by length, and secondarily alphabetically or the reverse of this depending on which
 option is chosen when the program is run.
 
 There is a Shell Script "Test.sh" also included. This is a test which checks the success of the sort and reverse sort capabilities of the
