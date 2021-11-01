@@ -1,5 +1,5 @@
 #!/bin/sh
-javac csc499hw1.java
+javac Csc499Hw1.java
 echo "n" | java Csc499Hw1
 if diff ImSorted.txt Sorted.txt
     then
