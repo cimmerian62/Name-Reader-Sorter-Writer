@@ -44,7 +44,7 @@ class readerSorterWriter {
             if (linesIn.get(i).length() < linesIn.get(i+1).length()) {
                 Collections.sort(linesOut); //linesOut is sorted alphabetically
                 for (String s: linesOut) {
-                    toWrite += s+"\r\n"; //the names in lines out are put into a string
+                    toWrite += s+"\n"; //the names in lines out are put into a string
                 }
                 linesOut.clear(); //lines out is cleared to allow the next group of names of equal length to be added
             }
@@ -54,7 +54,7 @@ class readerSorterWriter {
         Collections.sort(linesOut);
         
         for (String s: linesOut) {
-            toWrite += s+"\r\n";
+            toWrite += s+"\n";
         }
         
         return toWrite;
@@ -73,7 +73,7 @@ class readerSorterWriter {
                 Collections.sort(linesOut);
                 Collections.reverse(linesOut); //the list is reversed to get the names sorted in reverse alphabetical order
                 for (String s: linesOut) {
-                    toWrite += s+"\r\n";
+                    toWrite += s+"\n";
                 }
                 linesOut.clear();
             }
@@ -84,7 +84,7 @@ class readerSorterWriter {
         Collections.reverse(linesOut);
         
         for (String s: linesOut) {
-            toWrite += s+"\r\n";
+            toWrite += s+"\n";
         }
         
         return toWrite;
