@@ -6,6 +6,7 @@ if diff ImSorted.txt Sorted.txt
         echo "Sort pass"
 else
         echo "sort fail"
+        exit 1
 fi
 echo "r" | java Csc499Hw1
 if diff ImSorted.txt revSorted.txt
@@ -13,4 +14,5 @@ if diff ImSorted.txt revSorted.txt
         echo "Reverse Sort pass"
 else
         echo "Reverse sort fail"
+        exit 1
 fi
