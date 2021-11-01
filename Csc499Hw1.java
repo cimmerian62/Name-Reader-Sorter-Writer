@@ -54,7 +54,7 @@ class readerSorterWriter {
         Collections.sort(linesOut);
         
         for (String s: linesOut) {
-            toWrite += s+"uh-oh"+"\n";
+            toWrite += s+"\n";
         }
         
         return toWrite;
